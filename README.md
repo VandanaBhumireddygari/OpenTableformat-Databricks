@@ -1,11 +1,35 @@
 ## Project Overview
 This project explores Open Table Formats using Databricks, PySpark, and Delta Lake. It covers data ingestion, transformation, storage optimization, and querying techniques.
 
+
+---
+
+## 📝 **Concepts Covered**
+- ✅ Open Table Formats (Apache Iceberg, Delta Lake, Hudi)
+- ✅ Working with Databricks & Spark Clusters
+- ✅ Data ingestion into Databricks using **PySpark**
+- ✅ **Delta Lake:** Data storage, ACID transactions, and performance optimizations
+- ✅ **Delta Log:** Understanding transaction logs and metadata
+- ✅ **Time Travel in Delta Lake:** Restoring previous versions of data
+- ✅ **Schema Evolution & Changes**
+- ✅ **DML Operations (MERGE, UPDATE, DELETE) in Delta Lake**
+- ✅ **Spark Optimization Techniques** for efficient queries
+- ✅ **Deletion Vectors & Structured Streaming** in Databricks
+
+---
+
+## 💻 **Python Scripts**
+All relevant scripts used for ingestion, transformation, and querying Delta tables can be found in the `scripts/` directory.
+
+📂 **Attached Python File:**
+
 ## Prerequisites
 - Databricks account with a running cluster.
 - Apache Spark installed.
 - Access to a cloud storage or local file system for storing datasets.
 - Jupyter Notebook or an IDE with PySpark support.
+
+
 
 ## Steps to Run
 
